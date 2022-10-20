@@ -1,0 +1,1 @@
+ model 2: expected conv2d_3_input to have shape [null,64,64,3] but got array with shape [1,224,224,3]

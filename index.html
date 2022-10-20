@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <script src="../packages/p5.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/sign_language.css">
+    <link rel="stylesheet" type="text/css" href="css/button.css">
+    <meta charset="utf-8" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <header> <div class="container-header"> <h1> Apprend la langue des signes </h1> </div> </header>
+    
+    <div class="container"> 
+        
+        <div class="container-button">
+            <button onclick="launchTP(1);"> Entraînement 1 </button> 
+            <button onclick="launchTP(2);"> Entraînement 2 </button> 
+        </div>
+
+        <div class="container-p"> 
+            <img src="images/doSign50x62.png" alt="Do Sign">
+            <p>Fait le signe:</p> 
+            <p id="p1"> </p>
+        </div>
+
+        <div id="container-camera">  </div>
+
+        <footer> 
+            <div class="container-footer">
+                <a href="https://github.com/DevIA05?tab=repositories"  style="text-decoration: none">
+                    <img src="images/iconmonstr-github-1-64.png" alt="github logo">
+                </a>
+            </div> 
+        </footer>
+    
+    </div>
+    <!-- <script src="../js/exemples/test2.js"></script> -->
+    <script src="js/sign-language.js"></script>    
+    <!-- <script src="../js/exemples/webcam.js"></script> -->
+    <!-- <script type="module"  src="../js/exemples/test.js" ></script> -->
+</body>
+</html>
